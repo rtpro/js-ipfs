@@ -99,7 +99,7 @@
     "filesize": "^3.5.10",
     "fsm-event": "^2.1.0",
     "glob": "^7.1.2",
-    "hapi": "^16.5.2",
+    "hapi": "^17.0.0",
     "hapi-set-header": "^1.0.2",
     "hoek": "^4.2.0",
     "ipfs-api": "^14.3.5",
