@@ -154,7 +154,7 @@
     "temp": "~0.8.3",
     "through2": "^2.0.3",
     "update-notifier": "^2.2.0",
-    "yargs": "8.0.2"
+    "yargs": "13.1.0"
   },
   "optionalDependencies": {
     "prom-client": "^10.1.0",
