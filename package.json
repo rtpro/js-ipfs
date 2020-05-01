@@ -42,7 +42,9 @@
     "release": "gulp release",
     "release-minor": "gulp release --type minor",
     "release-major": "gulp release --type major",
-    "coverage-publish": "aegir-coverage publish"
+    "coverage-publish": "aegir-coverage publish",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "pre-commit": [
     "lint",
@@ -154,7 +156,8 @@
     "temp": "~0.8.3",
     "through2": "^2.0.3",
     "update-notifier": "^2.2.0",
-    "yargs": "8.0.2"
+    "yargs": "8.0.2",
+    "snyk": "^1.316.1"
   },
   "optionalDependencies": {
     "prom-client": "^10.1.0",
@@ -215,5 +218,6 @@
     "tcme <hi@this-connect.me>",
     "Łukasz Magiera <magik6k@users.noreply.github.com>",
     "ᴠɪᴄᴛᴏʀ ʙᴊᴇʟᴋʜᴏʟᴍ <victorbjelkholm@gmail.com>"
-  ]
+  ],
+  "snyk": true
 }
