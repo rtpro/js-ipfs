@@ -122,7 +122,7 @@
     "libp2p-railing": "~0.7.1",
     "libp2p-secio": "~0.8.1",
     "libp2p-tcp": "~0.11.0",
-    "libp2p-webrtc-star": "~0.13.2",
+    "libp2p-webrtc-star": "~0.20.7",
     "libp2p-websockets": "~0.10.1",
     "lodash.flatmap": "^4.5.0",
     "lodash.get": "^4.4.2",
