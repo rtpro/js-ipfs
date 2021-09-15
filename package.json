@@ -153,8 +153,8 @@
     "tar-stream": "^1.5.4",
     "temp": "~0.8.3",
     "through2": "^2.0.3",
-    "update-notifier": "^2.2.0",
-    "yargs": "8.0.2"
+    "update-notifier": "^4.0.0",
+    "yargs": "15.0.1"
   },
   "optionalDependencies": {
     "prom-client": "^10.1.0",
